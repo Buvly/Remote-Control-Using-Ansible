@@ -18,7 +18,7 @@
 
 - name: "install pm2"
   become: yes
-  apt:
+  npm:
     name: pm2
     gobal: yes
     production: yes
