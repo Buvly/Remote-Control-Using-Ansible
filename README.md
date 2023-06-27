@@ -11,6 +11,7 @@ Steps:
 7- Add a new task file - roles/setup/tasks/main.yml
 8-  run the Playbook using your inventory file and udacity.pem:
   ansible-playbook main-remote.yml -i inventory --private-key udacity.pem
+9- delete the ec2 instance after finishing
 
 
 
